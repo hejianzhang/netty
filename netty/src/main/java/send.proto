@@ -1,0 +1,24 @@
+package netty;
+
+option java_package = "com.lyncc.netty.codec.protobuf.demo";
+option java_outer_classname = "sendProto";
+
+message send {
+
+       optional  uint32 version=1;
+       optional uint32 packageType=2;
+       optional uint32 chain=3;
+       optional uint32 __padding=4;
+       optional int32 topicID=5;
+       optional int32 tID=6;
+       optional int32 requestID=7;
+       optional int32 bodyLen=8;
+       optional int32 fieldCount=9;
+       optional int64 sequenceNo=10;
+       optional int64 lastSn=11;
+       optional int32 fieldID=12;
+       optional int32 fieldLenth=13;
+
+
+
+}
